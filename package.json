@@ -1,0 +1,63 @@
+{
+  "name": "redux-todo-app",
+  "version": "1.0.0",
+  "description": "redux-todo-app",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "test": "karma start"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Mitch Chen (http://github.com/mitchbox)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^3.11.3",
+    "expect": "^1.13.0",
+    "express": "^4.13.3",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "0.1.1",
+    "karma-mocha": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^3.0.0",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "2.7.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "history": "^1.17.0",
+    "jquery": "^2.1.4",
+    "react": "^0.14.4",
+    "react-addons-test-utils": "0.14.4",
+    "react-dom": "^0.14.4",
+    "react-redux": "^4.0.0",
+    "react-router": "^1.0.3",
+    "redux": "^3.0.4",
+    "redux-logger": "^2.3.1",
+    "redux-simple-router": "^2.0.4"
+  }
+}
